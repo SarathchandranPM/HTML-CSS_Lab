@@ -1,0 +1,59 @@
+* {
+  margin: 0%;
+}
+div {
+  width: 40%;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  min-width: 350px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  object-fit: cover;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: black solid;
+  color: black;
+}
+
+button {
+  width: 100px;
+  margin: 20px;
+  border-radius: 5px;
+  height: 30px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  background-color: gray;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: bisque;
+}
